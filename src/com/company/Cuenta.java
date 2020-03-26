@@ -43,4 +43,12 @@ public class Cuenta {
                 ", clientin=" + clientin +
                 '}';
     }
+
+    public Cliente getClientin() {
+        return clientin;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
 }

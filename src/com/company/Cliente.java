@@ -22,4 +22,8 @@ public class Cliente {
                 ", genero=" + genero +
                 '}';
     }
+
+    public String getNombre() {
+        return nombre;
+    }
 }
